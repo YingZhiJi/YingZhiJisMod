@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {
+            "item": "yingzhiji_s_mod:kinetic_core"
+        },
+        "B": {
+            "item": "yingzhiji_s_mod:high_strength_wire"
+        },
+        "C": {
+            "item": "minecraft:iron_block"
+        },
+        "D": {
+            "item": "minecraft:iron_ingot"
+        },
+        "E": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "pattern": [
+        "DEB",
+        "CAB",
+        "DEB"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:iron_bow",
+        "count": 1
+    }
+}

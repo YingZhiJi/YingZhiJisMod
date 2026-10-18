@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": { "item": "yingzhiji_s_mod:ashblazite_ore" },
+  "result": "yingzhiji_s_mod:ashblazite",
+  "experience": 0.7,
+  "cookingtime": 200
+}

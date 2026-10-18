@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "inputs": [
+        { "item": "minecraft:emerald", "count": 10 },
+        { "item": "minecraft:book", "count": 1 }
+      ],
+      "output": {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "enchantments": [
+          { "id": "minecraft:mending", "level": 1 }
+        ]
+      },
+      "maxUses": 1
+    }
+  ]
+}

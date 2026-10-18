@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": { "all": "yingzhiji_s_mod:block/ashblazite_deepslate_ore" }
+}

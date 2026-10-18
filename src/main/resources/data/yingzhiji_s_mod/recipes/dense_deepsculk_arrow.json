@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "E": { "item": "minecraft:echo_shard" },
+        "S": { "item": "minecraft:sculk" },
+        "C": { "item": "yingzhiji_s_mod:deepsculk_crystal" },
+        "A": { "item": "yingzhiji_s_mod:dense_arrow" },
+        "F": { "item": "minecraft:disc_fragment_5" }
+    },
+    "pattern": [
+        "ESC",
+        "SAS",
+        "FSE"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:dense_deepsculk_arrow",
+        "count": 2
+    }
+}

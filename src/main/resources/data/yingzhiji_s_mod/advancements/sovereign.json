@@ -1,0 +1,16 @@
+{
+  "parent": "yingzhiji_s_mod:knowledgeable",
+  "display": {
+    "icon": { "item": "yingzhiji_s_mod:destiny_crystal" },
+    "title": { "translate": "advancements.yingzhiji_s_mod.sovereign.title" },
+    "description": { "translate": "advancements.yingzhiji_s_mod.sovereign.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "used_crystal": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

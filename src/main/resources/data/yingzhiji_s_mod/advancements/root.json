@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": { "item": "yingzhiji_s_mod:end_flash" },
+    "title": { "translate": "advancements.yingzhiji_s_mod.root.title" },
+    "description": { "translate": "advancements.yingzhiji_s_mod.root.description" },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

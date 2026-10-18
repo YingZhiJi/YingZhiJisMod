@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "D": { "item": "minecraft:dragon_breath" }
+    },
+    "pattern": [
+        "DDD",
+        "DDD",
+        "DDD"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:dragon_breath_extract",
+        "count": 1
+    }
+}

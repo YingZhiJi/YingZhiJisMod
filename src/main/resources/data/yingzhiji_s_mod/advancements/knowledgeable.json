@@ -1,0 +1,16 @@
+{
+  "parent": "yingzhiji_s_mod:root",
+  "display": {
+    "icon": { "item": "yingzhiji_s_mod:abyssal_eye" },
+    "title": { "translate": "advancements.yingzhiji_s_mod.knowledgeable.title" },
+    "description": { "translate": "advancements.yingzhiji_s_mod.knowledgeable.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "used_5_eyes": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "yingzhiji_s_mod:repair_kit",
+    "kit": { "item": "yingzhiji_s_mod:repair_kit" },
+    "targets": [
+        {
+            "item": "yingzhiji_s_mod:iron_bow",
+            "ratio": 2
+        },
+        {
+            "item": "yingzhiji_s_mod:old_saber",
+            "ratio": 3
+        },
+        {
+            "item": "yingzhiji_s_mod:mobile_shield",
+            "ratio": 1
+        }
+    ]
+}

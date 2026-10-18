@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "yingzhiji_s_mod:dragon_breath_smithing_template" },
+  "base": { "item": "minecraft:netherite_sword" },
+  "addition": { "item": "yingzhiji_s_mod:heavy_molten_blank" },
+  "result": { "item": "yingzhiji_s_mod:end_flash_blank" }
+}

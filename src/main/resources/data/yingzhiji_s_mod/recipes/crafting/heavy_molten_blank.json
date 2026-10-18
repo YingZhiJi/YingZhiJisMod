@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LML",
+    "MNM",
+    "LML"
+  ],
+  "key": {
+    "L": { "item": "minecraft:lava_bucket" },
+    "M": { "item": "yingzhiji_s_mod:heavy_alloy" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": { "item": "yingzhiji_s_mod:heavy_molten_blank" }
+}

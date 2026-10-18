@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "S "
+  ],
+  "key": {
+    "#": { "item": "minecraft:gold_ingot" },
+    "S": { "item": "minecraft:golden_sword" }
+  },
+  "result": { "item": "yingzhiji_s_mod:golden_slash_sword" }
+}

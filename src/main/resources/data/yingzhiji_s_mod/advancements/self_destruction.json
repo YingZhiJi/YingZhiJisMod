@@ -1,0 +1,16 @@
+{
+  "parent": "yingzhiji_s_mod:root",
+  "display": {
+    "icon": { "item": "yingzhiji_s_mod:old_saber" },
+    "title": { "translate": "advancements.yingzhiji_s_mod.self_destruction.title" },
+    "description": { "translate": "advancements.yingzhiji_s_mod.self_destruction.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "killed_commander": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

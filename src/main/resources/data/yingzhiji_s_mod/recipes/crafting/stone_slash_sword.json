@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "S "
+  ],
+  "key": {
+    "#": { "tag": "minecraft:stone_tool_materials" },
+    "S": { "item": "minecraft:stone_sword" }
+  },
+  "result": { "item": "yingzhiji_s_mod:stone_slash_sword" }
+}

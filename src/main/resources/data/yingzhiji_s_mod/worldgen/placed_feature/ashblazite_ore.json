@@ -1,0 +1,8 @@
+{
+  "feature": "yingzhiji_s_mod:ashblazite_ore",
+  "placement": [
+    { "type": "minecraft:count", "count": 1 },
+    { "type": "minecraft:in_square" },
+    { "type": "minecraft:biome" }
+  ]
+}

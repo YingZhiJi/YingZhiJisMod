@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "Q": { "item": "minecraft:quartz" },
+        "B": { "item": "minecraft:quartz_block" },
+        "A": { "item": "yingzhiji_s_mod:dense_arrow" }
+    },
+    "pattern": [
+        " QQ",
+        "QAQ",
+        "BQ "
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:dense_piercing_arrow",
+        "count": 2
+    }
+}

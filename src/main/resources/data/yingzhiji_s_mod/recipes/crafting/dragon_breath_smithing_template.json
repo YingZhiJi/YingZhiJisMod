@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BTB",
+    "BDB"
+  ],
+  "key": {
+    "A": { "item": "minecraft:iron_block" },
+    "B": { "item": "minecraft:iron_ingot" },
+    "T": { "item": "minecraft:netherite_upgrade_smithing_template" },
+    "D": { "item": "yingzhiji_s_mod:dragon_breath_extract" }
+  },
+  "result": { "item": "yingzhiji_s_mod:dragon_breath_smithing_template" }
+}

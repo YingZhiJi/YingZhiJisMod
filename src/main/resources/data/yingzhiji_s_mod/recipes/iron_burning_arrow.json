@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": { "tag": "minecraft:coals" },
+        "B": { "item": "minecraft:blaze_powder" },
+        "A": { "item": "yingzhiji_s_mod:iron_arrow" },
+        "G": { "item": "minecraft:gunpowder" }
+    },
+    "pattern": [
+        " CB",
+        "CAC",
+        "GC "
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:iron_burning_arrow",
+        "count": 2
+    }
+}

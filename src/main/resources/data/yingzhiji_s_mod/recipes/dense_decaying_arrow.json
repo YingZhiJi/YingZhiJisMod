@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "N": { "item": "minecraft:netherite_scrap" },
+        "S": { "tag": "minecraft:soul_fire_base_blocks" },
+        "B": { "item": "minecraft:blaze_rod" },
+        "A": { "item": "yingzhiji_s_mod:dense_arrow" },
+        "D": { "item": "yingzhiji_s_mod:decaying_soul" }
+    },
+    "pattern": [
+        "NSN",
+        "BAS",
+        "DBN"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:dense_decaying_arrow",
+        "count": 2
+    }
+}

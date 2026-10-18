@@ -1,0 +1,26 @@
+{
+  "start": {
+    "speaker": "图书管理员",
+    "text": "欢迎光临，旅人。这座图书馆里，书和人都有自己的故事……",
+    "options": [
+      { "text": "我想看看你的藏书。", "next": "trade" },
+      { "text": "有什么我能帮忙的吗？", "next": "quests" },
+      { "text": "只是路过。", "next": "bye" }
+    ]
+  },
+  "trade": {
+    "speaker": "图书管理员",
+    "text": "那跟我来吧，这些书都是我的珍藏。",
+    "action": "open_trade"
+  },
+  "quests": {
+    "speaker": "图书管理员",
+    "text": "确实……有几件事一直萦绕在我心头。",
+    "action": "open_quests"
+  },
+  "bye": {
+    "speaker": "图书管理员",
+    "text": "路上小心，旅人。愿书页指引你的方向。",
+    "action": "close"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "DCD",
+    "SAS"
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "D": { "item": "minecraft:diamond" },
+    "C": { "item": "minecraft:bucket" },
+    "S": { "item": "minecraft:smooth_stone" },
+    "A": {
+      "tag": "yingzhiji_s_mod:ashblazite_ores"
+    }
+  },
+  "result": {
+    "item": "yingzhiji_s_mod:crystallizer"
+  }
+}

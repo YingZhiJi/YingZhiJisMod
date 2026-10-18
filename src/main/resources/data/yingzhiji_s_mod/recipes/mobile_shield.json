@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "CDC",
+        "EFE"
+    ],
+    "key": {
+        "A": { "item": "yingzhiji_s_mod:ashblazite_block" },
+        "B": { "item": "minecraft:red_stained_glass" },
+        "C": { "item": "yingzhiji_s_mod:heavy_alloy" },
+        "D": { "item": "yingzhiji_s_mod:heavy_molten_blank" },
+        "E": { "item": "minecraft:redstone_block" },
+        "F": { "item": "yingzhiji_s_mod:kinetic_core" }
+    },
+    "result": {
+        "item": "yingzhiji_s_mod:mobile_shield",
+        "count": 1
+    }
+}

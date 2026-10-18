@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": { "item": "yingzhiji_s_mod:iron_arrow" },
+        "I": { "item": "minecraft:iron_ingot" },
+        "B": { "item": "minecraft:iron_block" },
+        "F": { "item": "minecraft:blaze_powder" }
+    },
+    "pattern": [
+        " AI",
+        "ABA",
+        "FA "
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:dense_arrow",
+        "count": 4
+    }
+}

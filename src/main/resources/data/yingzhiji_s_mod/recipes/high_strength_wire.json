@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "W": {
+            "item": "minecraft:string"
+        },
+        "L": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "C": {
+            "item": "minecraft:chain"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "pattern": [
+        "WLW",
+        "CIC",
+        "WLW"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:high_strength_wire",
+        "count": 1
+    }
+}

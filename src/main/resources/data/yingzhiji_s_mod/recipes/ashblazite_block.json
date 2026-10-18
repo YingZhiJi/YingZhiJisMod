@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "###", "###", "###" ],
+  "key": { "#": { "item": "yingzhiji_s_mod:ashblazite" } },
+  "result": { "item": "yingzhiji_s_mod:ashblazite_block" }
+}

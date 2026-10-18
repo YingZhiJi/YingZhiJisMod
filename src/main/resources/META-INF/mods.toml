@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="yingzhiji_s_mod"
+version="1.0.0"
+displayName="yingzhiji's mod"
+logoFile="logo.png"
+authors="YingZhiJi, Deepseek"
+description='''This mod brings YingZhiJi's personal ideas to life.'''
+
+[[dependencies.yingzhiji_s_mod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.yingzhiji_s_mod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

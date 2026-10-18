@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": { "item": "yingzhiji_s_mod:heavy_alloy" },
+        "C": { "item": "yingzhiji_s_mod:apocalypse_charge" },
+        "I": { "item": "minecraft:iron_block" },
+        "R": { "item": "yingzhiji_s_mod:dense_arrow" },
+        "E": { "item": "minecraft:end_crystal" }
+    },
+    "pattern": [
+        " AC",
+        "IRA",
+        "EI "
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:dense_apocalypse_arrow",
+        "count": 1
+    }
+}

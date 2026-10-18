@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    " s ",
+    " # "
+  ],
+  "key": {
+    "#": { "tag": "minecraft:stone_tool_materials" },
+    "P": { "item": "minecraft:stone_pickaxe" },
+    "s": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "yingzhiji_s_mod:stone_heavy_pickaxe" }
+}

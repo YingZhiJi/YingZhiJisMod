@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    " s ",
+    " # "
+  ],
+  "key": {
+    "#": { "item": "minecraft:diamond" },
+    "P": { "item": "minecraft:diamond_pickaxe" },
+    "s": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "yingzhiji_s_mod:diamond_heavy_pickaxe" }
+}

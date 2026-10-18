@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "yingzhiji_s_mod:wooden_heavy_pickaxe",
+    "yingzhiji_s_mod:stone_heavy_pickaxe",
+    "yingzhiji_s_mod:iron_heavy_pickaxe",
+    "yingzhiji_s_mod:golden_heavy_pickaxe",
+    "yingzhiji_s_mod:diamond_heavy_pickaxe",
+    "yingzhiji_s_mod:netherite_heavy_pickaxe",
+    "yingzhiji_s_mod:ashblazite_pickaxe",
+    "yingzhiji_s_mod:ashblazite_heavy_pickaxe"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "yingzhiji_s_mod:item/high_strength_wire"
+  }
+}

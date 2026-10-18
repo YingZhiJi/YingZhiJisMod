@@ -1,0 +1,58 @@
+{
+  "apocalypse_launch": {
+    "category": "player",
+    "sounds": [
+      "yingzhiji_s_mod:apocalypse_launch"
+    ]
+  },
+  "apocalypse_hit": {
+    "category": "player",
+    "sounds": [
+      "yingzhiji_s_mod:apocalypse_hit"
+    ]
+  },
+  "music_disc_universal_collapse": {
+    "sounds": [
+      "yingzhiji_s_mod:music_disc/universal_collapse"
+    ]
+  },
+  "music_disc_the_finals": {
+    "sounds": [
+      "yingzhiji_s_mod:music_disc/the_finals"
+    ]
+  },
+  "music_disc_arknights_ost3": {
+    "sounds": [
+      "yingzhiji_s_mod:music_disc/arknights_ost3"
+    ]
+  },
+  "music_disc_x_cool": {
+    "sounds": [
+      "yingzhiji_s_mod:music_disc/x_cool"
+    ]
+  },
+  "music_disc_somniomancer": {
+    "sounds": [
+      "yingzhiji_s_mod:music_disc/somniomancer"
+    ]
+  },
+  "music_disc_be_my_star": {
+    "sounds": [
+      "yingzhiji_s_mod:music_disc/be_my_star"
+    ]
+  },
+  "librarian_squish": {
+    "subtitle": "subtitles.yingzhiji_s_mod.librarian_squish",
+    "sounds": ["yingzhiji_s_mod:librarian_squish"]
+  },
+  "music_disc_battleplan_arclight": {
+    "sounds": [
+      "yingzhiji_s_mod:music_disc/battleplan_arclight"
+    ]
+  },
+  "music_disc_initial_play": {
+    "sounds": [
+      "yingzhiji_s_mod:music_disc/initial_play"
+    ]
+  }
+}

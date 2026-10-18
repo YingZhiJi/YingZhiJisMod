@@ -1,0 +1,7 @@
+{
+  "type": "yingzhiji_s_mod:crystallizer_crystallizing",
+  "input_item": { "item": "yingzhiji_s_mod:wooden_heavy_pickaxe" },
+  "input_fluid": { "fluid": "yingzhiji_s_mod:molten_ashblazite", "amount": 800 },
+  "result": { "item": "yingzhiji_s_mod:ashblazite_heavy_pickaxe", "count": 1 },
+  "duration": 160
+}

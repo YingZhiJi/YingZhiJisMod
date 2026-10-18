@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "yingzhiji_s_mod:item/dense_apocalypse_arrow" }
+}

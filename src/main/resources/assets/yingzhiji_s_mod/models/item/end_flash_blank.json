@@ -1,0 +1,1 @@
+{ "parent": "minecraft:item/generated", "textures": { "layer0": "yingzhiji_s_mod:item/end_flash_blank" } }

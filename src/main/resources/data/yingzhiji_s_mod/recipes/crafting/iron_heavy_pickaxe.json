@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    " s ",
+    " # "
+  ],
+  "key": {
+    "#": { "item": "minecraft:iron_ingot" },
+    "P": { "item": "minecraft:iron_pickaxe" },
+    "s": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "yingzhiji_s_mod:iron_heavy_pickaxe" }
+}

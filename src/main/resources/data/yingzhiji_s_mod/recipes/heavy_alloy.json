@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "I": { "item": "minecraft:iron_block" },
+        "G": { "item": "minecraft:gold_block" },
+        "N": { "item": "minecraft:netherite_ingot" }
+    },
+    "pattern": [
+        "IGI",
+        "NNN",
+        "IGI"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:heavy_alloy",
+        "count": 3
+    }
+}

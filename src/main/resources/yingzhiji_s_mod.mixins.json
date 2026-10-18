@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.examplemod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "yingzhiji_s_mod.refmap.json",
+  "client": [
+    "PlayerRendererMixin",
+    "BossHealthOverlayMixin",
+    "PotatoCharmMinecraftMixin"
+  ],
+  "mixins": [
+    "LivingEntityTotemMixin",
+    "EnchantmentMixin",
+    "ServerPlayerDeathMixin",
+    "ServerPlayerDieMixin",
+    "PlayerDimensionsMixin",
+    "ItemEntityMixin",
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

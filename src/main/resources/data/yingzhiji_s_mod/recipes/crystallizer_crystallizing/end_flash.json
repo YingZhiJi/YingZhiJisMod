@@ -1,0 +1,13 @@
+{
+  "type": "yingzhiji_s_mod:crystallizer_crystallizing",
+  "input_item": { "item": "yingzhiji_s_mod:end_flash_blank" },
+  "input_fluid": {
+    "fluid": "yingzhiji_s_mod:molten_dragon_breath",
+    "amount": 2400
+  },
+  "result": {
+    "item": "yingzhiji_s_mod:end_flash",
+    "count": 1
+  },
+  "duration": 200
+}

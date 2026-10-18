@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "G": {
+            "item": "minecraft:glowstone"
+        },
+        "N": {
+            "item": "minecraft:gold_nugget"
+        },
+        "I": {
+            "item": "yingzhiji_s_mod:iron_arrow"
+        },
+        "B": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "pattern": [
+        " GG",
+        "NIG",
+        "BN "
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:iron_spectral_arrow",
+        "count": 2
+    }
+}

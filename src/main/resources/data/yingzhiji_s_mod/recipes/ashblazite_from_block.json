@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ { "item": "yingzhiji_s_mod:ashblazite_block" } ],
+  "result": { "item": "yingzhiji_s_mod:ashblazite", "count": 9 }
+}

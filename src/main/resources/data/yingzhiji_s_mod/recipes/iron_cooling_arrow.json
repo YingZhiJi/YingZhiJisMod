@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "S": { "item": "minecraft:snowball" },
+        "B": { "item": "minecraft:snow_block" },
+        "I": { "item": "minecraft:ice" },
+        "A": { "item": "yingzhiji_s_mod:iron_arrow" },
+        "G": { "item": "minecraft:glass_bottle" }
+    },
+    "pattern": [
+        "SBI",
+        "BAB",
+        "GBS"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:iron_cooling_arrow",
+        "count": 2
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "C": {
+            "item": "yingzhiji_s_mod:crystal_frame"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "pattern": [
+        "CRC",
+        "RDR",
+        "CRC"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:kinetic_core",
+        "count": 1
+    }
+}

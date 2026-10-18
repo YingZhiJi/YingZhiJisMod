@@ -1,0 +1,16 @@
+{
+  "parent": "yingzhiji_s_mod:sovereign",
+  "display": {
+    "icon": { "item": "yingzhiji_s_mod:maiden_honey_potion" },
+    "title": { "translate": "advancements.yingzhiji_s_mod.taste_good.title" },
+    "description": { "translate": "advancements.yingzhiji_s_mod.taste_good.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "drank_honey": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

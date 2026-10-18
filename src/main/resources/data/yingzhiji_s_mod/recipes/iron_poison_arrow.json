@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "S": { "item": "minecraft:spider_eye" },
+        "F": { "item": "minecraft:fermented_spider_eye" },
+        "R": { "item": "minecraft:rotten_flesh" },
+        "A": { "item": "yingzhiji_s_mod:iron_arrow" }
+    },
+    "pattern": [
+        " SF",
+        "RAS",
+        "RR "
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:iron_poison_arrow",
+        "count": 2
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "yingzhiji_s_mod:item/old_saber_sheath"
+  },
+  "display": {
+    "fixed": {
+      "scale": [ 1.36, 1.36, 0.68 ]
+    }
+  }
+}

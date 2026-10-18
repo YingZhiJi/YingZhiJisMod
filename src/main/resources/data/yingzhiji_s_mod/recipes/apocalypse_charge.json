@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": { "item": "yingzhiji_s_mod:heavy_alloy" },
+        "E": { "item": "minecraft:end_crystal" },
+        "D": { "item": "yingzhiji_s_mod:dragon_breath_extract" },
+        "S": { "item": "minecraft:nether_star" }
+    },
+    "pattern": [
+        "AEA",
+        "DSE",
+        "DDA"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:apocalypse_charge",
+        "count": 3
+    }
+}

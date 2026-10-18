@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "S "
+  ],
+  "key": {
+    "#": { "tag": "minecraft:planks" },
+    "S": { "item": "minecraft:wooden_sword" }
+  },
+  "result": { "item": "yingzhiji_s_mod:wooden_slash_sword" }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "P": { "item": "minecraft:piston" },
+        "I": { "item": "minecraft:iron_block" },
+        "L": {
+            "item": "minecraft:lava_bucket",
+            "remainder": "minecraft:bucket"
+        },
+        "A": { "item": "yingzhiji_s_mod:dense_arrow" }
+    },
+    "pattern": [
+        "PIL",
+        "IAI",
+        "LIP"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:dense_overpressure_arrow",
+        "count": 8
+    }
+}

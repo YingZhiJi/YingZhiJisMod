@@ -1,0 +1,13 @@
+{
+  "type": "yingzhiji_s_mod:crystallizer_crystallizing",
+  "input_item": { "item": "minecraft:glass" },
+  "input_fluid": {
+    "fluid": "yingzhiji_s_mod:molten_ashblazite",
+    "amount": 500
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  },
+  "duration": 160
+}

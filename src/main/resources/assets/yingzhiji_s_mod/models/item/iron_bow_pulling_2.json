@@ -1,0 +1,6 @@
+{
+    "parent": "yingzhiji_s_mod:item/iron_bow_base",
+    "textures": {
+        "layer0": "yingzhiji_s_mod:item/iron_bow_pulling_2"
+    }
+}

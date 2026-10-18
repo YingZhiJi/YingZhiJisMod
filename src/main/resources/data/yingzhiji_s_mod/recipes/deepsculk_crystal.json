@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": { "item": "minecraft:amethyst_shard" },
+        "S": { "item": "minecraft:sculk" },
+        "E": { "item": "minecraft:echo_shard" }
+    },
+    "pattern": [
+        "ASA",
+        "SES",
+        "ASA"
+    ],
+    "result": {
+        "item": "yingzhiji_s_mod:deepsculk_crystal",
+        "count": 1
+    }
+}

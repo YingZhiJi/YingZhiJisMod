@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    " s ",
+    " # "
+  ],
+  "key": {
+    "#": { "tag": "minecraft:planks" },
+    "P": { "item": "minecraft:wooden_pickaxe" },
+    "s": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "yingzhiji_s_mod:wooden_heavy_pickaxe" }
+}

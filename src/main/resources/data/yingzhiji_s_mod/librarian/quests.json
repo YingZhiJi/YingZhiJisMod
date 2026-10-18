@@ -1,0 +1,308 @@
+{
+  "quests": [
+    {
+      "id": "meeting_gift",
+      "name": "见面礼",
+      "description": "啊……你好，我是图书管理员，你说我叫什么？图书管理员就是图书管理员呀！这是一份见面礼，当然啦，你也要送我一些东西作为交换喔。",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:book", "count": 1 },
+        { "type": "submit_item", "tag": "minecraft:flowers", "count": 1 }
+      ],
+      "rewards": {
+        "items": [
+          { "item": "minecraft:enchanted_book", "count": 1,
+            "enchantments": [{ "id": "minecraft:mending", "level": 1 }] }
+        ],
+        "experience": 233
+      },
+      "repeatable": false
+    },
+    {
+      "id": "new_enchanting_table",
+      "name": "新附魔台",
+      "description": "我的附魔台坏掉了……我需要一个新的附魔台，你可以帮我嘛？",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:enchanting_table", "count": 1 }
+      ],
+      "rewards": {
+        "items": [
+          { "item": "minecraft:enchanted_book", "count": 1,
+            "enchantments": [{ "id": "minecraft:mending", "level": 1 }] }
+        ],
+        "experience": 233
+      },
+      "repeatable": false
+    },
+    {
+      "id": "gluttony",
+      "name": "暴食",
+      "description": "嘿，你还有多余的食物吗？烤的滋滋冒油的肉可是相当好吃！蔬菜也不错，如果还能来点饮料就更好了！",
+      "requirements": [
+        { "type": "submit_item", "tag": "yingzhiji_s_mod:cooked_meat", "count": 16 },
+        { "type": "submit_item", "tag": "forge:crops", "count": 16 },
+        { "type": "submit_item", "item": "minecraft:milk_bucket", "count": 1 },
+        { "type": "submit_item", "item": "minecraft:honey_bottle", "count": 8 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 12 } ],
+        "experience": 200
+      },
+      "repeatable": true
+    },
+    {
+      "id": "library_expansion",
+      "name": "书库扩充",
+      "description": "我需要扩充我的藏书，书永远不嫌多嘛。你这样厉害的人，肯定会愿意帮忙的吧。",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:book", "count": 36 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 12 } ],
+        "experience": 200
+      },
+      "repeatable": true
+    },
+    {
+      "id": "enchanting_master",
+      "name": "附魔大师",
+      "description": "我需要一些青金石来附魔……",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:lapis_lazuli", "count": 48 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 12 } ],
+        "experience": 200
+      },
+      "repeatable": true
+    },
+    {
+      "id": "facility_repair",
+      "name": "修缮设施",
+      "description": "图书馆有些地方需要修理了呢……",
+      "requirements": [
+        { "type": "submit_item", "tag": "forge:stone", "count": 64 },
+        { "type": "submit_item", "tag": "minecraft:planks", "count": 64 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 12 } ],
+        "experience": 200
+      },
+      "repeatable": true
+    },
+    {
+      "id": "bookshelf_repair",
+      "name": "书架修补",
+      "description": "我需要一些木头来修理我的书架……",
+      "requirements": [
+        { "type": "submit_item", "tag": "minecraft:logs", "count": 64 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 12 } ],
+        "experience": 200
+      },
+      "repeatable": true
+    },
+    {
+      "id": "copper_trade",
+      "name": "异曲“铜”工",
+      "description": "听说你不喜欢铜矿……那和我换换？什么，你问听谁说的？啊啦啊啦……",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:copper_ingot", "count": 24 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:iron_ingot", "count": 16 } ],
+        "experience": 100
+      },
+      "repeatable": true
+    },
+
+
+
+    {
+      "id": "undead_cleansing",
+      "name": "亡灵粉碎机",
+      "description": "嘿，好朋友，我很讨厌亡灵生物，之前就是它们占领了我的图书馆……你可以帮我清理一些吗？",
+      "requirements": [
+    { "type": "kill_entity", "entity": "minecraft:zombie", "count": 16 },
+    { "type": "kill_entity", "entity": "minecraft:skeleton", "count": 16 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 12 } ],
+        "experience": 320
+      },
+      "repeatable": true
+    },
+    {
+      "id": "spider_hate",
+      "name": "蜘蛛啊啊啊！！！",
+      "description": "我讨厌它们！！！",
+      "requirements": [
+        { "type": "kill_entity", "entity": "minecraft:spider", "count": 16 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 8 } ],
+        "experience": 320
+      },
+      "repeatable": true
+    },
+    {
+      "id": "creeper_threat",
+      "name": "CREEPER?",
+      "description": "苦力怕对建筑来说是个威胁……你也不想它们把你房子炸上天吧？",
+      "requirements": [
+        { "type": "kill_entity", "entity": "minecraft:creeper", "count": 16 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 8 } ],
+        "experience": 320
+      },
+      "repeatable": true
+    },
+    {
+      "id": "ghast_scream",
+      "name": "鬼哭狼嚎",
+      "description": "恶魂叫起来很吓人……帮我清理掉它们吧，为了我的耳朵着想。",
+      "requirements": [
+        { "type": "kill_entity", "entity": "minecraft:ghast", "count": 16 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 16 } ],
+        "experience": 320
+      },
+      "repeatable": true
+    },
+    {
+      "id": "enderman_steal",
+      "name": "终界使者",
+      "description": "之前见过一些末影人，那群家伙之前偷走了我的盆栽……",
+      "requirements": [
+        { "type": "kill_entity", "entity": "minecraft:enderman", "count": 16 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 16 } ],
+        "experience": 320
+      },
+      "repeatable": true
+    },
+    {
+      "id": "zomperium_sanction",
+      "name": "战地制裁",
+      "description": "把那些Z帝国的走狗清理掉吧，同志。",
+      "requirements": [
+        { "type": "kill_entity", "entity": "yingzhiji_s_mod:zomperium_private", "count": 32 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:emerald", "count": 32 } ],
+        "experience": 640
+      },
+      "repeatable": true
+    },
+    {
+      "id": "personal_grudge",
+      "name": "个人恩怨",
+      "description": "Z帝国的战地指挥官是一个阴险狡诈而难缠的顽敌，由于我们之间的过节，我希望你帮我除掉他……权当是为了我吧，让他消失。……谢谢。",
+      "requirements": [
+        { "type": "kill_entity", "entity": "yingzhiji_s_mod:zomperium_commander", "count": 1 }
+      ],
+      "rewards": {
+        "items": [ { "item": "yingzhiji_s_mod:music_disc_initial_play", "count": 1 } ],
+        "experience": 4396
+      },
+      "repeatable": false
+    },
+    {
+      "id": "wither_slayer",
+      "name": "凋零，凋灵",
+      "description": "我讨厌文字游戏，所以，麻烦你去解决掉那个麻烦的家伙吧。嗯……你问我的想法？我觉得你这样厉害的人一定会所向披靡的，它们不过是手下败将罢了！",
+      "requirements": [
+        { "type": "kill_entity", "entity": "minecraft:wither", "count": 1 }
+      ],
+      "rewards": {
+        "items": [ { "item": "minecraft:netherite_block", "count": 1 } ],
+        "experience": 6000
+      },
+      "repeatable": false
+    },
+    {
+      "id": "new_era",
+      "name": "新新世代",
+      "description": "让我看看龙蛋吧，好朋友，我知道你一定会击败末影龙的。我需要研究研究，放心，不会弄坏它的。",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:dragon_egg", "count": 1 }
+      ],
+      "rewards": {
+        "items": [
+          { "item": "minecraft:dragon_egg", "count": 1 },
+          { "item": "minecraft:netherite_block", "count": 1 }
+        ],
+        "experience": 18000
+      },
+      "repeatable": false
+    },
+    {
+      "id": "eye_of_knowledge",
+      "name": "洞悉知识之眼",
+      "description": "你知道吗？我翻看古籍的时候找到了一条古老的魔咒，可以强化你的生命力，如过你提供给我施法道具我也会给你一些呢。啊，对了！这个附魔道具使用多了就没效果了，大概是五次左右。",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:ender_eye", "count": 1 },
+        { "type": "submit_item", "item": "minecraft:golden_apple", "count": 4 }
+      ],
+      "rewards": {
+        "items": [ { "item": "yingzhiji_s_mod:abyssal_eye", "count": 1 } ],
+        "experience": 3200
+      },
+      "repeatable": true,
+      "maxCompletions": 5
+    },
+    {
+      "id": "sovereign",
+      "name": "君临天下",
+      "description": "嘿嘿，好朋友，还记得上次给你的东西吗？我最近翻阅众多魔法书籍，自行研发出了一种新型的魔法道具，不过造价昂贵所以无法送你一个……当然，如果你能收集一份原材料的话，以我们的关系，我可以免费帮你制作喔！",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:emerald", "count": 64 },
+        { "type": "submit_item", "item": "minecraft:amethyst_shard", "count": 64 },
+        { "type": "submit_item", "item": "yingzhiji_s_mod:dragon_breath_extract", "count": 8 },
+        { "type": "submit_item", "item": "minecraft:totem_of_undying", "count": 2 },
+        { "type": "submit_item", "item": "minecraft:enchanted_golden_apple", "count": 4 }
+      ],
+      "rewards": {
+        "items": [ { "item": "yingzhiji_s_mod:destiny_crystal", "count": 1 } ],
+        "experience": 12800
+      },
+      "repeatable": false
+    },
+    {
+      "id": "maiden_whisper",
+      "name": "少女的暗语",
+      "description": "“我的挚爱，我的挚爱……你要去哪里？我的心要去哪里？我的灵魂去哪里？喝下它吧，不会再哭泣……”这些古籍里的句子我看不懂，但是我觉得这样调出来的药水很好喝喔！你也来一瓶？",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:honey_bottle", "count": 1 },
+        { "type": "submit_item", "item": "minecraft:nether_star", "count": 1 },
+        { "type": "submit_item", "item": "minecraft:totem_of_undying", "count": 4 },
+        { "type": "submit_item", "item": "minecraft:conduit", "count": 1 },
+        { "type": "submit_item", "tag": "yingzhiji_s_mod:any_potion", "count": 18 },
+        { "type": "submit_item", "item": "minecraft:enchanted_golden_apple", "count": 4 },
+        { "type": "submit_item", "item": "minecraft:tnt", "count": 8 },
+        { "type": "submit_item", "item": "minecraft:dragon_head", "count": 1 }
+      ],
+      "rewards": {
+        "items": [ { "item": "yingzhiji_s_mod:maiden_honey_potion", "count": 1 } ],
+        "experience": 25600
+      },
+      "repeatable": false
+    },
+    {
+      "id": "lighting",
+      "name": "照明",
+      "description": "我需要一个末地烛来充当台灯，你觉得怎样？",
+      "requirements": [
+        { "type": "submit_item", "item": "minecraft:end_rod", "count": 1 }
+      ],
+      "rewards": {
+        "items": [],
+        "experience": 32767
+      },
+      "repeatable": false
+    }
+  ]
+}

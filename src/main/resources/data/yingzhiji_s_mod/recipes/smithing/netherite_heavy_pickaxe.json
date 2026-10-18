@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "minecraft:netherite_upgrade_smithing_template" },
+  "base": { "item": "yingzhiji_s_mod:diamond_heavy_pickaxe" },
+  "addition": { "item": "minecraft:netherite_ingot" },
+  "result": { "item": "yingzhiji_s_mod:netherite_heavy_pickaxe" }
+}
